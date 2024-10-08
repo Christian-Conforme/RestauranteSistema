@@ -13,8 +13,10 @@ exports.crearMenu = async (req, res) => {
 
 exports.verMenus = async (req, res) => {
     const { restauranteId } = req.params;
+    console.log(`Obteniendo menús para el restauranteId: ${restauranteId}`); // Log para depuración
     try {
         const menus = await Menu.findAll({ where: { restauranteId } });
+        console.log(`Menús encontrados: ${JSON.stringify(menus)}`); // Log para depuración
         res.status(200).json(menus);
     } catch (error) {
         console.error('Error al obtener los menús:', error);
@@ -24,9 +26,11 @@ exports.verMenus = async (req, res) => {
 
 exports.verMenuPorId = async (req, res) => {
     const { id } = req.params;
+    console.log(`Obteniendo menú con id: ${id}`); // Log para depuración
     try {
         const menu = await Menu.findByPk(id);
         if (!menu) {
+            console.log(`Menú con id: ${id} no encontrado`); // Log para depuración
             return res.status(404).json({ error: 'Menú no encontrado' });
         }
         res.status(200).json(menu);

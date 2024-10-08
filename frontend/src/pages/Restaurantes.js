@@ -2,7 +2,10 @@ import React, { useState, useEffect } from 'react';
 import axios from '../api/axios';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '../components/Navbar';
+<<<<<<< HEAD
 import '../css/Restaurante.css';
+=======
+>>>>>>> 43a855a9e5460cd4a82558a0bf2c9013f12d243d
 
 const Restaurantes = () => {
   const [restaurantes, setRestaurantes] = useState([]);

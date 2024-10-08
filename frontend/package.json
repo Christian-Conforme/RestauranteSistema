@@ -14,7 +14,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+<<<<<<< HEAD
     "dev" :"react-scripts start",
+=======
+>>>>>>> 43a855a9e5460cd4a82558a0bf2c9013f12d243d
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

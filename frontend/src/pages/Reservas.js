@@ -2,8 +2,12 @@ import React, { useState, useEffect } from 'react';
 import axios from '../api/axios';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '../components/Navbar';
+<<<<<<< HEAD
 import '../css/Reserva.css';
 import Dashboard from './Dashboard';
+=======
+
+>>>>>>> 43a855a9e5460cd4a82558a0bf2c9013f12d243d
 const Reservas = () => {
   const [formData, setFormData] = useState({
     fecha: '',
@@ -108,7 +112,11 @@ const Reservas = () => {
 
   return (
     <div>
+<<<<<<< HEAD
       <Dashboard />
+=======
+      <Navbar />
+>>>>>>> 43a855a9e5460cd4a82558a0bf2c9013f12d243d
       <div className="container mt-4">
         <div className="row">
           <div className="col-md-6">
@@ -192,4 +200,8 @@ const Reservas = () => {
   );
 };
 
+<<<<<<< HEAD
 export default Reservas;
+=======
+export default Reservas;
+>>>>>>> 43a855a9e5460cd4a82558a0bf2c9013f12d243d

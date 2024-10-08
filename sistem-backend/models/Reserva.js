@@ -2,14 +2,15 @@ const { DataTypes } = require('sequelize');
 const sequelize = require('../config/database');
 const Usuario = require('./Usuario');
 const Restaurante = require('./Restaurante');
+const Menu = require('./Menu');
 
 const Reserva = sequelize.define('Reserva', {
     fecha: {
-        type: DataTypes.DATE,
+        type: DataTypes.DATEONLY, // Solo año, mes y día
         allowNull: false
     },
     hora: {
-        type: DataTypes.TIME,
+        type: DataTypes.TIME, // Solo horas y minutos
         allowNull: false
     },
     numeroPersonas: {
@@ -26,5 +27,6 @@ const Reserva = sequelize.define('Reserva', {
 
 Reserva.belongsTo(Usuario, { foreignKey: 'usuarioId' });
 Reserva.belongsTo(Restaurante, { foreignKey: 'restauranteId' });
+Reserva.belongsTo(Menu, { foreignKey: 'menuId' }); // Añadir relación con Menu
 
 module.exports = Reserva;

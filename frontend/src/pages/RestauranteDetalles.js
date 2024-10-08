@@ -1,9 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import axios from '../api/axios';
 import { useParams, useNavigate } from 'react-router-dom';
+<<<<<<< HEAD
 // import Navbar from '../components/Navbar';
 import Dashboard from './Dashboard';
 import '../css/RestauranteDetalle.css';
+=======
+import Navbar from '../components/Navbar';
+>>>>>>> 43a855a9e5460cd4a82558a0bf2c9013f12d243d
 
 const RestauranteDetalles = () => {
   const { id } = useParams();
@@ -40,7 +44,11 @@ const RestauranteDetalles = () => {
 
   return (
     <div>
+<<<<<<< HEAD
       <Dashboard />
+=======
+      <Navbar />
+>>>>>>> 43a855a9e5460cd4a82558a0bf2c9013f12d243d
       <div className="container mt-4">
         <h2 style={{ color: 'blue', textAlign: 'center' }}>{restaurante.nombre}</h2>
         <p style={{ textAlign: 'center' }}>{restaurante.direccion}</p>

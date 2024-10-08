@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 import axios from '../api/axios';
 import { useNavigate } from 'react-router-dom';
+<<<<<<< HEAD
 import '../css/Register.css';
 
+=======
+>>>>>>> 43a855a9e5460cd4a82558a0bf2c9013f12d243d
 
 const Register = () => {
   const [formData, setFormData] = useState({
@@ -34,6 +37,7 @@ const Register = () => {
   };
 
   return (
+<<<<<<< HEAD
 <div className="register-container">
       <h2>Registro</h2>
       <form onSubmit={handleSubmit}>
@@ -76,6 +80,15 @@ const Register = () => {
         <div>
           <button type="submit">Registrarse</button>
         </div>
+=======
+    <div>
+      <form onSubmit={handleSubmit}>
+        <input type="text" name="nombre" placeholder="Nombre" onChange={handleChange} />
+        <input type="email" name="email" placeholder="Email" onChange={handleChange} />
+        <input type="password" name="contraseña" placeholder="Contraseña" onChange={handleChange} />
+        <input type="text" name="telefono" placeholder="Teléfono" onChange={handleChange} />
+        <button type="submit">Registrarse</button>
+>>>>>>> 43a855a9e5460cd4a82558a0bf2c9013f12d243d
       </form>
       <p>{message}</p>
     </div>
