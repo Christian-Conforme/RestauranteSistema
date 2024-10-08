@@ -1,0 +1,83 @@
+.dashboard-container {
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #60dda9d0; /* Color de fondo para la barra de navegación */
+    padding: 10px 20px;
+    color: white;
+}
+
+.navbar h2 {
+    margin: 0; /* Eliminar márgenes para un mejor alineamiento */
+}
+
+.navbar-links ul {
+    list-style-type: none; /* Eliminar viñetas de la lista */
+    display: flex;
+    gap: 15px; /* Espacio entre enlaces */
+}
+
+.navbar-links a {
+    color: white; /* Color de texto de los enlaces */
+    text-decoration: none; /* Sin subrayado en los enlaces */
+}
+
+.navbar-links button {
+    background-color: #f44336; /* Color del botón de cerrar sesión */
+    color: white;
+    border: none; /* Sin borde */
+    padding: 8px 12px; /* Espaciado interno */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+.navbar-links button:hover {
+    background-color: #d32f2f; /* Color de fondo al pasar el mouse */
+}
+
+.dashboard-title {
+    color: #333; /* Color del título del dashboard */
+    text-align: center; /* Centrar el texto */
+    margin-top: 20px; /* Espaciado superior */
+}
+.dashboard-container {
+    padding: 20px;
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho */
+}
+
+.dashboard-title {
+    color: #333; /* Color del título del dashboard */
+    text-align: center; /* Centrar el texto */
+    margin: 20px 0; /* Espaciado superior e inferior */
+}
+
+.full-width {
+    width: 100%; /* Asegura que los elementos ocupen todo el ancho */
+    display: flex; /* Para alinear elementos dentro del contenedor */
+    justify-content: space-between; /* Espaciado entre elementos */
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en varias filas si es necesario */
+}
+.dashboard-container {
+    padding: 20px;
+    margin-top: 60px; /* Ajusta este valor para mover el contenedor más hacia abajo */
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho */
+}
+.home-button {
+    background-color: #4CAF50; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    padding: 10px 15px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    text-align: center; /* Centrar el texto */
+    text-decoration: none; /* Sin subrayado */
+    transition: background-color 0.3s; /* Efecto de transición */
+}
+
+.home-button:hover {
+    background-color: #45a049; /* Color de fondo al pasar el mouse */
+}

@@ -1,0 +1,62 @@
+/* Estilo general del contenedor */
+.container {
+    max-width: 800px; /* Limitar el ancho máximo */
+    margin: 0 auto; /* Centrar el contenedor */
+    padding: 20px; /* Espaciado interno */
+    background-color: #f9f9f9; /* Fondo claro */
+    border-radius: 10px; /* Esquinas redondeadas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  /* Estilo para los títulos */
+  h2 {
+    color: #1e90ff; /* Color azul */
+    text-align: center; /* Centrando el texto */
+    margin-bottom: 20px; /* Margen inferior */
+  }
+  
+  /* Estilo para el input de filtro */
+  input[type="text"] {
+    border-radius: 20px; /* Esquinas redondeadas */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde ligero */
+    width: 100%; /* Ancho completo */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  }
+  
+  /* Estilo para las tarjetas de restaurante */
+  .card {
+    border: none; /* Sin borde */
+    border-radius: 10px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    background-color: #fff; /* Fondo blanco */
+  }
+  
+  .card-body {
+    padding: 15px; /* Espaciado interno */
+  }
+  
+  /* Estilo para los botones */
+  .btn {
+    background-color: #1e90ff; /* Color de fondo azul */
+    color: white; /* Color del texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Esquinas redondeadas */
+    padding: 10px 15px; /* Espaciado interno */
+    cursor: pointer; /* Cambiar cursor al pasar el mouse */
+    transition: background-color 0.3s; /* Transición suave */
+  }
+  
+  .btn:hover {
+    background-color: #0f7bc2; /* Color más oscuro al pasar el mouse */
+  }
+  
+  /* Estilo para el botón de regresar */
+  .btn-secondary {
+    background-color: #6c757d; /* Color de fondo gris */
+  }
+  
+  .btn-secondary:hover {
+    background-color: #5a6268; /* Color más oscuro al pasar el mouse */
+  }
+  

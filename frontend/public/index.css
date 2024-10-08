@@ -1,0 +1,21 @@
+/* styles.css o el archivo CSS global que estés utilizando */
+
+html, body {
+    height: 100%; /* Asegúrate de que el html y el body ocupen el 100% de la altura */
+    margin: 0; /* Elimina el margen por defecto del body */
+    padding: 0; /* Elimina el padding por defecto del body */
+  }
+  
+  #root {
+    height: 100%; /* Asegúrate de que el div root ocupe el 100% de la altura */
+    display: flex; /* Hacer uso de flexbox para la disposición */
+    flex-direction: column; /* Alineación en columna */
+    justify-content: center; /* Centrar verticalmente */
+    align-items: center; /* Centrar horizontalmente */
+  }
+  
+  .container {
+    width: 100%; /* Asegúrate de que la clase container ocupe el 100% de la anchura */
+    height: auto; /* Dejar que el alto sea automático */
+  }
+  

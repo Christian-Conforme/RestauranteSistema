@@ -1,0 +1,57 @@
+/* Estilo general del contenedor */
+.container {
+    max-width: 800px; /* Limitar el ancho máximo */
+    margin: 0 auto; /* Centrar el contenedor */
+    padding: 20px; /* Espaciado interno */
+    background-color: #f9f9f9; /* Fondo claro */
+    border-radius: 10px; /* Esquinas redondeadas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  /* Estilo para los títulos */
+  h2 {
+    color: #1e90ff; /* Color azul */
+    text-align: center; /* Centrando el texto */
+    margin-bottom: 10px; /* Margen inferior */
+  }
+  
+  h3 {
+    color: #1e90ff; /* Color azul */
+    text-align: center; /* Centrando el texto */
+    margin-top: 20px; /* Margen superior */
+  }
+  
+  /* Estilo para párrafos */
+  p {
+    text-align: center; /* Centrando el texto */
+    color: #333; /* Color gris oscuro */
+    margin-bottom: 10px; /* Margen inferior */
+  }
+  
+  /* Estilo para las tarjetas de menú */
+  .card {
+    border: none; /* Sin borde */
+    border-radius: 10px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    background-color: #fff; /* Fondo blanco */
+  }
+  
+  .card-body {
+    padding: 15px; /* Espaciado interno */
+  }
+  
+  /* Estilo para los botones */
+  .btn {
+    background-color: #1e90ff; /* Color de fondo azul */
+    color: white; /* Color del texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Esquinas redondeadas */
+    padding: 10px 15px; /* Espaciado interno */
+    cursor: pointer; /* Cambiar cursor al pasar el mouse */
+    transition: background-color 0.3s; /* Transición suave */
+  }
+  
+  .btn:hover {
+    background-color: #0f7bc2; /* Color más oscuro al pasar el mouse */
+  }
+  

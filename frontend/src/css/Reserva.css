@@ -1,0 +1,100 @@
+/* Reserva.css */
+
+html, body {
+  height: 100%; /* Asegura que el html y body ocupen el 100% de la altura */
+  margin: 0; /* Elimina márgenes */
+}
+
+.reservas-container {
+  display: flex; /* Usar flexbox para el contenedor principal */
+  flex-direction: column; /* Apilar elementos verticalmente */
+  height: 100%; /* Ocupa toda la altura disponible */
+  padding: 20px; /* Espaciado interno */
+  box-sizing: border-box; /* Incluir el padding en el cálculo del tamaño total */
+}
+
+.reservas-header {
+  color: #3b82f6; /* Azul */
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.row {
+  display: flex; /* Usar flexbox para las filas */
+  flex: 1; /* Permitir que la fila ocupe el espacio restante */
+}
+
+.col-md-6 {
+  flex: 1; /* Cada columna ocupa el mismo espacio */
+  padding: 10px; /* Espaciado interno para las columnas */
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: border-color 0.2s;
+}
+
+.form-control:focus {
+  border-color: #3b82f6; /* Azul en foco */
+  outline: none;
+}
+
+.btn {
+  padding: 10px 15px;
+  background-color: #3b82f6; /* Azul */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #2563eb; /* Azul oscuro */
+}
+
+.message {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.list-group {
+  margin-top: 20px;
+  flex: 1; /* Permite que la lista ocupe el espacio restante */
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.list-group-item p {
+  margin: 0;
+}
+
+.list-group-item .btn {
+  margin-left: 10px;
+}
+
+p {
+  color: red;
+}

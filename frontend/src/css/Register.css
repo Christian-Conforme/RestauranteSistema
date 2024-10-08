@@ -1,0 +1,55 @@
+/* Estilos para el formulario de registro */
+
+.register-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px; /* Esquinas redondeadas del contenedor */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff; /* Fondo blanco */
+  }
+  
+  .register-container h2 {
+    text-align: center;
+    color: #3b82f6; /* Azul */
+    margin-bottom: 20px;
+  }
+  
+  .register-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 20px; /* Esquinas redondeadas en los inputs */
+    font-size: 16px;
+    transition: border-color 0.3s;
+  }
+  
+  .register-container input:focus {
+    border-color: #3b82f6; /* Azul */
+    outline: none;
+  }
+  
+  .register-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3b82f6; /* Azul */
+    color: white;
+    border: none;
+    border-radius: 20px; /* Esquinas redondeadas en el botón */
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .register-container button:hover {
+    background-color: #2563eb; /* Azul oscuro */
+  }
+  
+  .register-container p {
+    text-align: center;
+    color: #dc2626; /* Rojo para mensajes de error */
+  }
+  
