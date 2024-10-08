@@ -3,7 +3,7 @@ const Reserva = require('../models/Reserva');
 exports.crearReserva = async (req, res) => {
     const { fecha, hora, numeroPersonas, restauranteId } = req.body;
     try {
-        const reserva = await Reserva.create({ fecha, hora, numeroPersonas, usuarioId: req.usuario.id, restauranteId });
+        const reserva = await Reserva.create({ fecha, hora, numeroPersonas, usuarioId: req.usuario.id, restauranteId});
         res.status(201).json({ message: 'Reserva creada exitosamente', reserva });
     } catch (error) {
         console.error('Error al crear la reserva:', error);
